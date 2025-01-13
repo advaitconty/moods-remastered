@@ -11,6 +11,13 @@
 		256F42022D33A84D00202935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256F42012D33A84D00202935 /* ContentView.swift */; };
 		256F42042D33A84F00202935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256F42032D33A84F00202935 /* Assets.xcassets */; };
 		256F42072D33A84F00202935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256F42062D33A84F00202935 /* Preview Assets.xcassets */; };
+		256F420E2D33A8E900202935 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256F420D2D33A8E900202935 /* IntroView.swift */; };
+		256F42112D33A97900202935 /* Forever in Frameworks */ = {isa = PBXBuildFile; productRef = 256F42102D33A97900202935 /* Forever */; };
+		256F42132D33A9BD00202935 /* StorageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256F42122D33A9BD00202935 /* StorageData.swift */; };
+		256F42162D33AA4F00202935 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 256F42142D33AA4F00202935 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		256F42172D33AA4F00202935 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 256F42152D33AA4F00202935 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		2597EA9C2D34C02E00DFF133 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2597EA9A2D34C02D00DFF133 /* Raleway-VariableFont_wght.ttf */; };
+		2597EA9D2D34C02E00DFF133 /* Raleway-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2597EA9B2D34C02E00DFF133 /* Raleway-Italic-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		256F42012D33A84D00202935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		256F42032D33A84F00202935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256F42062D33A84F00202935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		256F420D2D33A8E900202935 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		256F42122D33A9BD00202935 /* StorageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageData.swift; sourceTree = "<group>"; };
+		256F42142D33AA4F00202935 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		256F42152D33AA4F00202935 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		256F42182D33AA5800202935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2597EA9A2D34C02D00DFF133 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		2597EA9B2D34C02E00DFF133 /* Raleway-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256F42112D33A97900202935 /* Forever in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +66,15 @@
 		256F41FE2D33A84D00202935 /* Moods-Remastered */ = {
 			isa = PBXGroup;
 			children = (
+				256F42182D33AA5800202935 /* Info.plist */,
 				256F41FF2D33A84D00202935 /* Moods_RemasteredApp.swift */,
+				256F42122D33A9BD00202935 /* StorageData.swift */,
 				256F42012D33A84D00202935 /* ContentView.swift */,
+				256F420D2D33A8E900202935 /* IntroView.swift */,
+				2597EA9B2D34C02E00DFF133 /* Raleway-Italic-VariableFont_wght.ttf */,
+				2597EA9A2D34C02D00DFF133 /* Raleway-VariableFont_wght.ttf */,
+				256F42142D33AA4F00202935 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+				256F42152D33AA4F00202935 /* PlayfairDisplay-VariableFont_wght.ttf */,
 				256F42032D33A84F00202935 /* Assets.xcassets */,
 				256F42052D33A84F00202935 /* Preview Content */,
 			);
@@ -83,6 +105,9 @@
 			dependencies = (
 			);
 			name = "Moods-Remastered";
+			packageProductDependencies = (
+				256F42102D33A97900202935 /* Forever */,
+			);
 			productName = "Moods-Remastered";
 			productReference = 256F41FC2D33A84D00202935 /* Moods-Remastered.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,9 @@
 				Base,
 			);
 			mainGroup = 256F41F32D33A84D00202935;
+			packageReferences = (
+				256F420F2D33A97900202935 /* XCRemoteSwiftPackageReference "forever" */,
+			);
 			productRefGroup = 256F41FD2D33A84D00202935 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +153,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2597EA9C2D34C02E00DFF133 /* Raleway-VariableFont_wght.ttf in Resources */,
+				256F42162D33AA4F00202935 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
 				256F42072D33A84F00202935 /* Preview Assets.xcassets in Resources */,
+				256F42172D33AA4F00202935 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
 				256F42042D33A84F00202935 /* Assets.xcassets in Resources */,
+				2597EA9D2D34C02E00DFF133 /* Raleway-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +171,8 @@
 			files = (
 				256F42022D33A84D00202935 /* ContentView.swift in Sources */,
 				256F42002D33A84D00202935 /* Moods_RemasteredApp.swift in Sources */,
+				256F420E2D33A8E900202935 /* IntroView.swift in Sources */,
+				256F42132D33A9BD00202935 /* StorageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +304,13 @@
 				DEVELOPMENT_TEAM = VYG284C3Z9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moods-Remastered/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +335,13 @@
 				DEVELOPMENT_TEAM = VYG284C3Z9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moods-Remastered/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +377,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		256F420F2D33A97900202935 /* XCRemoteSwiftPackageReference "forever" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jiachenyee/forever";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		256F42102D33A97900202935 /* Forever */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 256F420F2D33A97900202935 /* XCRemoteSwiftPackageReference "forever" */;
+			productName = Forever;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 256F41F42D33A84D00202935 /* Project object */;
 }

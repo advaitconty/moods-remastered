@@ -11,7 +11,7 @@ import SwiftUI
 struct Moods_RemasteredApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroView()
         }
     }
 }
